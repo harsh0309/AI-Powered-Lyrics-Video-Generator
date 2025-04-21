@@ -1,0 +1,10 @@
+<form>
+  <input type="file" accept="audio/*" onChange={handleAudio} />
+  <textarea onChange={handleLyrics} />
+  <select onChange={handleTheme}>
+    <option>Lo-fi</option>
+    <option>Pop</option>
+    <option>Sad</option>
+  </select>
+  <button onClick={handleSubmit}>Generate Video</button>
+</form>
